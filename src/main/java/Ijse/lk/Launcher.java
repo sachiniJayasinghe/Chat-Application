@@ -17,7 +17,7 @@ public class Launcher extends Application {
         Parent rootNode =  FXMLLoader.load(this.getClass().getResource("/view/LoginForm.fxml"));
         Scene scene = new Scene(rootNode);
 
-        stage.setTitle("Item Form");
+        stage.setTitle("Chat");
         stage.centerOnScreen();
         stage.setScene(scene);
 

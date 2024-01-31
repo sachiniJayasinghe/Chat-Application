@@ -15,7 +15,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="ClientPane" prefHeight="655.0" prefWidth="461.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
+<AnchorPane fx:id="ClientPane" prefHeight="655.0" prefWidth="461.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ijse.lk.controller.ClientController">
     <children>
         <Rectangle arcWidth="5.0" fill="#92ddffb2" height="106.0" layoutX="-15.0" layoutY="567.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="462.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
         <ImageView fitHeight="558.0" fitWidth="462.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
