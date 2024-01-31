@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LoginPane" prefHeight="506.0" prefWidth="227.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+    <children>
+        <ImageView fitHeight="506.0" fitWidth="387.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../img/iPad%20mini%208.3%20-%201.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="145.0" layoutY="317.0" text="Login " textFill="WHITE">
+            <font>
+                <Font name="Bauhaus 93" size="35.0" />
+            </font></Label>
+        <TextField fx:id="txtname" alignment="CENTER" layoutX="78.0" layoutY="391.0" onAction="#NameOnAction" prefHeight="42.0" prefWidth="227.0" promptText="Enter your Name" style="-fx-background-radius: 20;">
+            <font>
+                <Font name="Bookman Old Style Bold" size="18.0" />
+            </font>
+            <effect>
+                <DropShadow blurType="ONE_PASS_BOX" height="27.29" radius="9.997499999999999" spread="0.05" width="14.7">
+                    <color>
+                        <Color green="0.5333333611488342" blue="0.8421052694320679" />
+                    </color>
+                </DropShadow>
+            </effect></TextField>
+    </children>
+</AnchorPane>
